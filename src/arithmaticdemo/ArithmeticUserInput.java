@@ -1,10 +1,18 @@
 package arithmaticdemo;
 
-public class ArithmeticDemo {
+import java.util.Scanner;
+
+public class ArithmeticUserInput {
     public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
         int num1, num2, result;
-        num1 = 20;
-        num2 = 10;
+
+        System.out.print("Enter First Number: ");
+        num1 = input.nextInt();
+
+        System.out.print("Enter second Number: ");
+        num2 = input.nextInt();
 
         result = num1 + num2 ;
         System.out.println("Sum = "+result);
@@ -22,4 +30,3 @@ public class ArithmeticDemo {
         System.out.println("Remainder = "+result);
     }
 }
-
