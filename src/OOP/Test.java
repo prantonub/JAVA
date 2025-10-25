@@ -2,22 +2,14 @@ package OOP;
 
 public class Test {
     public static void main(String[] args) {
-        Teacher teacher1 = new Teacher();
-        teacher1.name = "Pranto Islam";
-        teacher1.gender = "Male";
-        teacher1.phone = 1785551585;
+        Teacher teacher1 = new Teacher();// create first object teacher1
+        teacher1.setInformation("Pranto Islam", "Male", 17890880);
+        teacher1.displayInformation();// display info of teacher1
 
-        System.out.println("Name: "+teacher1.name);
-        System.out.println("Gender: "+teacher1.gender);
-        System.out.println("Phone: "+teacher1.phone);
 
-        Teacher teacher2 = new Teacher();
-        teacher2.name = "Asif Islam";
-        teacher2.gender = "Male";
-        teacher2.phone = 1325551500;
+        Teacher teacher2 = new Teacher(); // create second object teacher2
+        teacher2.setInformation("Mamun Islam", "Male", 19890990);
+        teacher2.displayInformation();// display info of teacher2
 
-        System.out.println("\nName: "+teacher2.name);
-        System.out.println("Gender: "+teacher2.gender);
-        System.out.println("Phone: "+teacher2.phone);
     }
 }
