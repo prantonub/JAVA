@@ -3,9 +3,7 @@
 */
 
 package Lab_2;
-
 import java.util.Scanner;
-
 public class Task_4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -31,6 +29,5 @@ public class Task_4 {
                 System.out.print(matrix[i][j] + " ");
             System.out.println();
         }
-
     }
 }
