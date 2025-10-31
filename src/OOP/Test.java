@@ -8,7 +8,7 @@ public class Test {
 
 
         Teacher teacher2 = new Teacher(); // create second object teacher2
-        teacher2.setInformation("Mamun Islam", "Male", 19890990);
+        teacher2.setInformation("Shakil Rana", "Male", 19890990);
         teacher2.displayInformation();// display info of teacher2
 
     }
