@@ -9,3 +9,5 @@ public static void main(String[] args) {
     c.eat();
 }
 }
+// output: I love meat
+// I love milk
