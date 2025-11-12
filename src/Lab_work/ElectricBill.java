@@ -33,7 +33,7 @@ class ElectricBill {
         System.out.println("Total Bill: " + amount + " Tk");
         System.out.println();
     }
-//main function
+//main function here
     public static void main(String[] args) {
 
         ElectricBill e1 = new ElectricBill(1217, "Pranto", 310);
