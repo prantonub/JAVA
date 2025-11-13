@@ -49,12 +49,12 @@ class BankAccount {
 
         // Perform transactions
         acc1.deposit(1000);
-        acc1.withdraw(500);
+        acc1.withdraw(600);
 
         acc2.deposit(2000);
         acc2.withdraw(3000);
 
-        System.out.println("\nFinal Account Details:");
+        System.out.println("\n Final Account Details:");
         acc1.display();
         acc2.display();
     }
