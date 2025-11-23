@@ -10,8 +10,8 @@ public class Series1 {
         n = input.nextInt();
 
         for(int i=0; i<=n; i++){//i++ || i = i+1 (same thing)
-//      for(int i=1; i<=n; i = i+2) => find the sum of odd number
-//      for(int i=2; i<=n; i = i+2) => find the sum of odd number
+//      for(int i=1; i<=n; i = i+2) ==> find the sum of odd number
+//      for(int i=2; i<=n; i = i+2) ==> find the sum of odd number
             System.out.print(" "+i);
             sum = sum + i;
         }
